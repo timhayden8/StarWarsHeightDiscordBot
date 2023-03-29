@@ -26,4 +26,4 @@ async def on_message(message):
             await message.channel.send(f'{input} is {height} cm tall.')
         except:
             await message.channel.send("Sorry, this character isn't in the SWAPI Database.")
-client.run('MTA5MDQxMjM1MjA3NzMwMzgxOA.GAThCG.bpUtDwMRG1outA6ICiXu66oz2mzMMb7AxAZY-g')
+client.run('YOUR BOT TOKEN HERE')
