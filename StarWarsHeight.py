@@ -10,7 +10,6 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
- 
     if message.content.startswith('!StarWarsHeight'):
         await message.channel.send("Who's Height do you want to know?")
         message = await client.wait_for('message')
